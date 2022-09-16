@@ -9,3 +9,5 @@ The app greets the person using the application
 
 ![image](https://user-images.githubusercontent.com/37955433/190710546-c115576d-a879-4735-9f15-0abea7ef0f2a.png)
 
+This is the initial set-up which requires adding of several other functionality like customized greetings based on region and time of the day, etc.
+
