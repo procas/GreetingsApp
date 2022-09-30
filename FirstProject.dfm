@@ -137,7 +137,7 @@ object Form1: TForm1
       Height = 25
       Caption = 'Tulip'
       TabOrder = 0
-      OnClick = WarmButtonClick
+      OnClick = Button1Click
     end
     object RoseButton: TButton
       Left = 97
@@ -161,7 +161,7 @@ object Form1: TForm1
       Top = 8
       Width = 75
       Height = 25
-      Caption = 'Merrigold'
+      Caption = 'Marigold'
       TabOrder = 3
     end
   end

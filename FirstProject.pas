@@ -35,6 +35,7 @@ type
     //procedure WeatherLabelClick(Sender: TObject);
     procedure Button4Click(Sender: TObject);
     procedure FormCreate(Sender: TObject);
+    procedure WarmButtonClick(Sender: TObject);
 
   private
     { Private declarations }
@@ -106,7 +107,7 @@ begin
       ShowMessage(GetWeatherGreeting(Freezing));
 end;
 
-procedure WarmButtonClick(Sender: TObject);
+procedure TForm1.WarmButtonClick(Sender: TObject);
 begin
       ShowMessage(GetWeatherGreeting(Warm));
 end;
@@ -147,7 +148,7 @@ var anArray : array[1..10] of string;
 
 procedure TForm1.Button1Click(Sender: TObject);
 begin
-       Image1.Picture.LoadFromFile('C:\Code\Delphi\Images\tulip.png');
+       Image1.Picture.LoadFromFile('C:\Code\GreetingsApp\Images\tulip.png');
        ShowMessage(Cards[1].name+ sLineBreak + Cards[1].greeting+sLineBreak+Cards[1].cost);
 
 end;
